@@ -1,0 +1,40 @@
+body
+{
+	background: #B98EA7;
+	font-family: 'Rajdhani', sans-serif;
+	color: #302F4D;
+	z-index: 1;
+}
+.divs
+{
+	background: #F0D3F7;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: none;
+	border-radius: 15px;
+	border: solid;
+	border-width: 10;
+	border-color: #302F4D;
+}
+.diva
+{
+	background: #F0D3F7;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: none;
+	border-radius: 15px;
+}
+.txt{
+	font-size: 18px;
+}
+#player1_name , #player2_name, .txt_take
+{
+	display:flow-root;
+	border-color: #120D31;
+	font-style: oblique;
+	font-size: 18px;
+}

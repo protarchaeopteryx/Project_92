@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&family=Palette+Mosaic&family=Quicksand:wght@300&family=Rajdhani&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+	<div class="score_holder"  class="divs">
+		<h3 id="p1_name"></h3><h3 id="p1_score"></h3>
+	</div>
+	<div class="score_holder"  class="divs">
+		<h3 id="p2_name"></h3><h3 id="p2_score"></h3>
+	</div>
+<div class="container divs">
+	<center>
+		<h2 style="color: white;">Guess The Number!</h2>
+		<div id="turn_holder" class="col-lg-6 col-sm-8 col-xs-12 diva">
+			<h2>Question Turn </h2><h2 id="q_turner"></h2>
+			<h2>Answer Turn </h2><h2 id="a_turner"></h2>
+		</div>
+		<div id="output_holder" class="diva">
+
+		</div>
+		<br>
+
+		<h3>Enter Number 1</h3>
+		<input id="inputn_1" class="txt_take" placeholder="Enter the number here">
+		<br>
+
+		<h3>Enter Number 2</h3>
+		<input id="inputn_2" class="txt_take" placeholder="Enter the number here">
+		<br>
+		<button id="sender" onclick="sent()" class="btn btn-primary">Send</button>
+
+	</center>
+</div>
+
+<script src="game_page.js"></script>
+</body>
+</html>
